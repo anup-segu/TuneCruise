@@ -1,0 +1,13 @@
+#audio_box {
+  margin-left: 10%;
+  margin-right: 8.5%;
+}
+
+#audio_box > audio {
+  width: 100%;
+}
+
+#game {
+  margin-left: 10%;
+  margin-right: 10%;
+}
