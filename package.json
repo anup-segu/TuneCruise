@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.9.0",
-    "jquery": "^2.2.3"
+    "jquery": "^2.2.3",
+    "keymaster": "^1.6.2"
   }
 }
