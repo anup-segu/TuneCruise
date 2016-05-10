@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Tune Cruise Beta</title>
+    <link href='https://fonts.googleapis.com/css?family=Exo:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./css/tune_cruise.css">
     <script src="./lib/bundle.js"></script>
   </head>
@@ -13,7 +14,12 @@
         <h2 id="boost-message" class="dashboard"></h2>
       </div>
       <div id="audio_box"></div>
-      <canvas id="game"></canvas>
+      <div class="game-background">
+        <div class="game-overlay">
+          <canvas id="game"></canvas>
+          <canvas id="game-ship"></canvas>
+        </div>
+      </div>
     </div>
   </body>
 </html>

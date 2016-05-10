@@ -1,3 +1,16 @@
+html {
+  background-color: black;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
 #audio_box {
   margin-left: 9.25%;
   margin-right: 9.25%;
@@ -7,9 +20,25 @@
   width: 100%;
 }
 
-#game {
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
   margin-left: 9.25%;
   margin-right: 9.25%;
+}
+
+.game-background {
+  background: url("https://i.ytimg.com/vi/z0nWLfwr_1w/maxresdefault.jpg");
+  background-position: center;
+  height: 80%;
+}
+
+.game-overlay {
+  background-color: #000000;
+  opacity: .9;
+  position: relative;
+  height: 100%;
 }
 
 /*score-box*/
@@ -21,5 +50,7 @@
 
 .dashboard {
   display: inline-block;
+  font-family: 'Exo', sans-serif;
+  color: white;
   margin-right: 10%;
 }
