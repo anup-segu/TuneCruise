@@ -12,6 +12,14 @@
   margin-right: 9.25%;
 }
 
+/*score-box*/
+
 .score-box {
   padding-left: 9.25%;
+  padding-right: 9.25%;
+}
+
+.dashboard {
+  display: inline-block;
+  margin-right: 10%;
 }
