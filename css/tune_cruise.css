@@ -54,3 +54,50 @@ canvas {
   color: white;
   margin-right: 10%;
 }
+
+/*welcome message*/
+
+.welcome-message {
+  position: absolute;
+  top: 20%;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  color: #9fdbff;
+}
+
+.highlight {
+  color: #7bff14;
+}
+
+.start-button {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Exo', sans-serif;
+  background-color: #4d4d4d;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  background-color: #9fdbff;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  margin-left: 50%;
+  font-size: 50px;
+}
