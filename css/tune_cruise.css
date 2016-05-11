@@ -5,6 +5,7 @@ html {
 
 body {
   height: 100%;
+  margin: 0;
 }
 
 #app {
@@ -55,6 +56,20 @@ canvas {
   margin-right: 10%;
 }
 
+.nav-toggle {
+  border: 0;
+  background-color: #000000;
+  float: right;
+}
+
+.nav-toggle:hover {
+  cursor: pointer;
+}
+
+.sc-icon {
+  height: 50px;
+}
+
 /*welcome message*/
 
 .welcome-message {
@@ -100,4 +115,50 @@ canvas {
   font-family: 'Exo', sans-serif;
   margin-left: 50%;
   font-size: 50px;
+}
+
+.nav-bar {
+  width: 100%;
+  padding-left: 9.25%;
+  padding-right: 9.25%;
+  height: 10%;
+  background-color: #474747;
+  /*opacity: .5;*/
+}
+
+.nav-content {
+  height: 100%;
+}
+
+.nav-content > input {
+  margin-top: 15px;
+  padding-left: 5px;
+  height: 50%;
+  width: 50%;
+  max-width: 400px;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-family: 'Exo', sans-serif;
+  border-radius: 5px;
+  border: 0;
+}
+
+.nav-content > button {
+  height: 50%;
+  margin-top: 15px;
+  margin-left: 2%;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  width: 7%;
+  max-width: 70px;
+  font-family: 'Exo', sans-serif;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.nav-content > button:hover {
+  color: #FFFFFF;
+  background-color: #9fdbff;
+  cursor: pointer;
 }

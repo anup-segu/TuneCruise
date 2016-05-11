@@ -8,10 +8,9 @@ gameplay
   - maybe other obstacles?
 
 link to Soundcloud api
-  - able to play tracks and playlists
+  - able to play playlists
   - have default playlist
 
 style app
   - music player (less important)
   - Score
-  - background (should show album art)

@@ -9,16 +9,23 @@
   </head>
   <body>
     <div id="app">
-      <div id="sc-player"></div>
-
+      <div class="nav-bar">
+        <div class="nav-content">
+          <input id="sc-url" type="test" placeholder="Enter a SoundCloud URL for any track!" />
+          <button id="play-track">&#9654 Play</button>
+        </div>
+      </div>
       <div class="score-box">
         <h2 id="score" class="dashboard">Score: 0</h2>
         <h2 id="combo" class="dashboard">Combo: 0x</h2>
         <h2 id="boost-message" class="dashboard"></h2>
+        <button class="nav-toggle">
+          <img class="sc-icon" src="https://developers.soundcloud.com/assets/logo_big_white-65c2b096da68dd533db18b9f07d14054.png" />
+        </button>
       </div>
 
       <div id="audio_box"></div>
-      
+
       <div class="game-background">
         <div class="game-overlay">
           <canvas id="game"></canvas>
