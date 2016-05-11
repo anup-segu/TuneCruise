@@ -4,9 +4,8 @@ graphics
   - other?
 
 gameplay
-  - boost change how it works?
-  - navbar toggle
-  - improve instructions (include w,a,s,d and soundcloud usage)
+  - launch animation when using soundcloud bar
+  - boost change how it works? (call it cruise)
   - fix ball movement when no sound is playing
   - scoreboard (show name and song)?
   - maybe other obstacles?
