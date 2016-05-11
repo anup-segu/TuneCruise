@@ -122,8 +122,23 @@ canvas {
   padding-left: 9.25%;
   padding-right: 9.25%;
   height: 10%;
+  animation-name: dropdown;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
   background-color: #474747;
   /*opacity: .5;*/
+}
+
+.dropdown {
+  animation-name: dropdown;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+.rollup {
+  animation-name: dropup;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
 }
 
 .nav-content {
@@ -161,4 +176,14 @@ canvas {
   color: #FFFFFF;
   background-color: #9fdbff;
   cursor: pointer;
+}
+
+@keyframes dropdown {
+    from {height: 0%;}
+    to {height: 10%;}
+}
+
+@keyframes dropup {
+    from {height: 10%;}
+    to {height: 0%;}
 }
