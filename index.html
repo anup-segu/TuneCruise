@@ -4,16 +4,21 @@
     <title>Tune Cruise Beta</title>
     <link href='https://fonts.googleapis.com/css?family=Exo:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./css/tune_cruise.css">
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
     <script src="./lib/bundle.js"></script>
   </head>
   <body>
     <div id="app">
+      <div id="sc-player"></div>
+
       <div class="score-box">
         <h2 id="score" class="dashboard">Score: 0</h2>
         <h2 id="combo" class="dashboard">Combo: 0x</h2>
         <h2 id="boost-message" class="dashboard"></h2>
       </div>
+
       <div id="audio_box"></div>
+      
       <div class="game-background">
         <div class="game-overlay">
           <canvas id="game"></canvas>

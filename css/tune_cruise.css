@@ -29,7 +29,7 @@ canvas {
 }
 
 .game-background {
-  background: url("https://i.ytimg.com/vi/z0nWLfwr_1w/maxresdefault.jpg");
+  /*background: url("https://i.ytimg.com/vi/z0nWLfwr_1w/maxresdefault.jpg");*/
   background-position: center;
   height: 80%;
 }
