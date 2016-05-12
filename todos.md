@@ -3,7 +3,6 @@ graphics
 
 gameplay
   - soundcloud dropdown should trigger pause and play on rollup?
-  - fix ball movement when no sound is playing or stop when audio stopped
   - maybe other obstacles?
 
 link to Soundcloud api
