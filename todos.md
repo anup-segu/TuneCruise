@@ -1,11 +1,9 @@
 graphics
-  - rings for orbs playing on base
-  - path particles on boost?
   - other?
 
 gameplay
   - launch animation when using soundcloud bar
-  - boost change how it works? (call it cruise)
+  - soundcloud dropdown on pause?
   - fix ball movement when no sound is playing
   - (show name and song on score board)?
   - maybe other obstacles?
