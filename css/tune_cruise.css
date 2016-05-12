@@ -47,6 +47,7 @@ canvas {
 .score-box {
   padding-left: 9.25%;
   padding-right: 9.25%;
+  height: 105px;
 }
 
 .dashboard {
@@ -77,14 +78,17 @@ canvas {
 }
 
 .track-display {
+  float: left;
   display: inline-block;
   color: white;
   font-family: 'Exo', sans-serif;
+  max-width: 300px;
 }
 
 .track-display > p {
-  margin-top: 4%;
-  margin-bottom: 3%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-size: 12px;
 }
 
 /*welcome message*/
