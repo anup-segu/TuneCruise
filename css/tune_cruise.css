@@ -121,6 +121,8 @@ canvas {
 .start-button {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-right: 20px;
+  width: 220px;
   font-size: 30px;
   font-family: 'Exo', sans-serif;
   background-color: #4d4d4d;
@@ -132,6 +134,24 @@ canvas {
 .start-button:hover {
   cursor: pointer;
   background-color: #9fdbff;
+}
+
+.demo-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  width: 220px;
+  font-size: 30px;
+  font-family: 'Exo', sans-serif;
+  background-color: #4d4d4d;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.demo-button:hover {
+  cursor: pointer;
+  background-color: #ffa700;
 }
 
 .hide {
