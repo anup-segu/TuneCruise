@@ -50,10 +50,15 @@ canvas {
 }
 
 .dashboard {
+  float: left;
   display: inline-block;
   font-family: 'Exo', sans-serif;
   color: white;
   margin-right: 10%;
+}
+
+#combo {
+  margin-right: 5%;
 }
 
 .nav-toggle {
@@ -67,7 +72,19 @@ canvas {
 }
 
 .sc-icon {
-  height: 50px;
+  margin-top: 10%;
+  height: 40px;
+}
+
+.track-display {
+  display: inline-block;
+  color: white;
+  font-family: 'Exo', sans-serif;
+}
+
+.track-display > p {
+  margin-top: 4%;
+  margin-bottom: 3%;
 }
 
 /*welcome message*/
