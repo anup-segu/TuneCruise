@@ -4,8 +4,9 @@ graphics
 gameplay
   - launch animation when using soundcloud bar
   - soundcloud dropdown on pause?
-  - fix ball movement when no sound is playing
-  - (show name and song on score board)?
+  - fix ball movement when no sound is playing or stop when audio stopped
+  - url error handling
+  - (show name and song on score board )?
   - maybe other obstacles?
 
 link to Soundcloud api
