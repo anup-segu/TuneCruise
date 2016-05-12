@@ -3,7 +3,6 @@ graphics
 
 gameplay
   - launch animation when using soundcloud bar
-  - navbar should close on succesful fetch
   - soundcloud dropdown should trigger pause and play on rollup?
   - replay is buggy (think its click handler)
   - fix ball movement when no sound is playing or stop when audio stopped
