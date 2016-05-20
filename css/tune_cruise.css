@@ -116,6 +116,12 @@ canvas {
 
 #demo-link:hover {
   cursor: pointer;
+  text-decoration: underline;
+}
+
+#github:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .start-button {
